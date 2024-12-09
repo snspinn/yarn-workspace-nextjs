@@ -5,6 +5,7 @@
     "@napi-rs/cli": "^2.18.4"
   },
   "workspace": [
+    "apps/*",
     "libraries/*"
   ]
 }
