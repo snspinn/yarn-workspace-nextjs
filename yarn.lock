@@ -3544,7 +3544,7 @@ __metadata:
     postcss: "npm:^8"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
-    server-package: "workspace:^"
+    server-package: "file: ../../../../libraries/server-package/"
     tailwindcss: "npm:^3.4.1"
     typescript: "npm:^5"
   languageName: unknown
@@ -4437,7 +4437,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"server-package@workspace:^, server-package@workspace:libraries/server-package":
+"server-package@file: ../../../../libraries/server-package/::locator=my-app%40workspace%3Aapps%2Fmy-app":
+  version: 0.0.0
+  resolution: "server-package@file: ../../../../libraries/server-package/# ../../../../libraries/server-package/::hash=b1ef5f&locator=my-app%40workspace%3Aapps%2Fmy-app"
+  checksum: 10c0/bcfbc6d1eb94e23543d808eb7ecb3da6da255e725bbbf21fbe74088d476be93b760486c5f5cba436126d829ad872b45f95ee76a10719a83fd7d0abe4434edce5
+  languageName: node
+  linkType: hard
+
+"server-package@workspace:libraries/server-package":
   version: 0.0.0-use.local
   resolution: "server-package@workspace:libraries/server-package"
   dependencies:
